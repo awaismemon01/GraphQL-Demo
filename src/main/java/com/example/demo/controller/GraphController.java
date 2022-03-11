@@ -33,7 +33,7 @@ public class GraphController {
     public void apiCall(){
 
         HttpHeaders httpHeaders = new HttpHeaders();
-        httpHeaders.add("Authorization","bearer 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");
+        httpHeaders.add("Authorization","bearer ");
 
 
         int count = 0;
@@ -72,7 +72,7 @@ public class GraphController {
     @GetMapping("/api/prs")
     public void getPRs(){
         HttpHeaders httpHeaders = new HttpHeaders();
-        httpHeaders.add("Authorization","bearer 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");
+        httpHeaders.add("Authorization","bearer ");
 
 //        String e = "Signal-Android";
 //        int count = 0;
